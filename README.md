@@ -24,8 +24,11 @@ The HCRL dataset: https://ocslab.hksecurity.net/Datasets/driving-dataset
 
 ## Extraction
 
-losses folder: implements the triplet loss in the cases of a training set with all time series of the same length, and a training set with time series of unequal lengths;
-networks folder: implements encoder and its building blocks (dilated convolutions, causal CNN);
-scikit_wrappers.py file: implements classes inheriting Scikit-learn classifiers that wrap an encoder and a SVM classifier.
-utils.py file: implements custom PyTorch datasets;
-default_hyperparameters.json file: example of a JSON file containing the hyperparameters of a pair (encoder, classifier).
+* losses folder: implements the triplet loss in the cases of a training set with all time series of the same length, and a training set with time series of unequal lengths;
+
+* networks folder: implements encoder and its building blocks (dilated convolutions, causal CNN);
+* scikit_wrappers.py file: implements classes inheriting Scikit-learn classifiers that wrap an encoder and a SVM classifier.
+* utils.py file: implements custom PyTorch datasets;
+* default_hyperparameters.json file: example of a JSON file containing the hyperparameters of a pair (encoder, classifier).
+* sparse_labeling.ipynb file: file containing code to reproduce the results of training an SVM on our representations for different numbers of available labels;
+* HouseholdPowerConsumption.ipynb file: Jupyter notebook containing experiments on the Individual Household Electric Power Consumption dataset.
