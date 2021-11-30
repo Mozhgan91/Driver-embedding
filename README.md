@@ -24,9 +24,9 @@ The HCRL dataset: https://ocslab.hksecurity.net/Datasets/driving-dataset
 
 ## Extraction
 
-* losses folder: implements the triplet loss in the cases of a training set with all time series of the same length, and a training set with time series of unequal lengths;
-
-* networks folder: implements encoder and its building blocks (dilated convolutions, causal CNN);
+* triplet_loss: the triplet loss implementation for driving time series of different/same lengths.
+* Temporal CNN: implements encoder and its building blocks (dilated convolutions, causal CNN);
+* LSTM: the implementation of LSTM encoder is done for ablation study 
 * scikit_wrappers.py file: implements classes inheriting Scikit-learn classifiers that wrap an encoder and a SVM classifier.
 * utils.py file: implements custom PyTorch datasets;
 * default_hyperparameters.json file: example of a JSON file containing the hyperparameters of a pair (encoder, classifier).
