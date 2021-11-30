@@ -1,5 +1,6 @@
 # Driver Embeddings
-This is the code for extracting the driver embeddings for the purpose of driver identification 
+This is the code for extracting the driver embeddings for the purpose of driver identification used in our work ([Driver Identification Using Vehicular Sensing Data: A Deep Learning Approach](https://ieeexplore.ieee.org/abstract/document/9417463)) 
+
 
 # Requirements
 All conducted Experiments are done using the following packages: 
