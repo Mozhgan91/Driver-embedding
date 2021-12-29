@@ -9,10 +9,8 @@ All conducted Experiments are done using the following packages:
 * math 
 * Scipy v1.1.0
 * Numpy v1.15.2
-* python-weka-wrapper3 v0.1.6
 * Matplotlib v3.0.0
-* jupyter 
-* Orange v3.18.0
+* jupyter
 * Pandas v0.23.4
 
 # Datasets
