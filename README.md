@@ -26,11 +26,9 @@ The dataset employed in our code be obtained from the following links.
 
 ## Extraction
 
-* triplet_loss: the triplet loss implementation for driving time series of different/same lengths.
-* Temporal CNN: implements encoder and its building blocks (dilated convolutions, causal CNN);
+* losses: the triplet loss implementation for driving time series of different/same lengths.
+* Casual CNN: implements encoder and its building blocks (dilated convolutions, causal CNN);
 * LSTM: the implementation of LSTM encoder is done for ablation study 
-* scikit_wrappers.py file: implements classes inheriting Scikit-learn classifiers that wrap an encoder and a SVM classifier.
-* utils.py file: implements custom PyTorch datasets;
-* default_hyperparameters.json file: example of a JSON file containing the hyperparameters of a pair (encoder, classifier).
-* sparse_labeling.ipynb file: file containing code to reproduce the results of training an SVM on our representations for different numbers of available labels;
-* HouseholdPowerConsumption.ipynb file: Jupyter notebook containing experiments on the Individual Household Electric Power Consumption dataset.
+* model_wrappers: implements classes inheriting Scikit-learn classifiers that wrap an encoder and a SVM classifier.
+* utils: implements custom PyTorch datasets;
+* main: Jupyter notebook containing experiments on the dataset.
